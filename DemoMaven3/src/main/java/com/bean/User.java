@@ -12,7 +12,14 @@ public class User {
 	private int id;
 	private String name;
 	private int age;
+	private String pwd;
 	
+	public String getPwd() {
+		return pwd;
+	}
+	public void setPwd(String pwd) {
+		this.pwd = pwd;
+	}
 	@Id
 	@GeneratedValue
 	public int getId() {
